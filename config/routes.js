@@ -36,7 +36,8 @@ module.exports.routes = {
     view: 'homepage'
   },
 
-   'GET /getIP':'GetIPController.getIP'
+   'GET /getIP':'GetIPController.getIP',
+   'POST /upload': 'UploadController.upload'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
